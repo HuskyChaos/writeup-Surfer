@@ -42,8 +42,6 @@
     <li>
         Flag:<br>
         <img src="./img/flag.png" alt="flag" width="500"><br>
-        Instead of finding the login credentials for SSH, i found the flag.<br>
-        I can't include the files location because i want this writeup to be accepted so all i can say is that i found an intresting file inside a folder.<br>
-        i then used that files location in the <code>url</code> parameter by intercepting the request in burp and forwarded it. The file i received as pdf had the flag.
+        Instead of finding the login credentials for SSH, i found the flag. I can't include the files location because i want this writeup to be accepted so all i can say is that i found an intresting file inside a folder. i then used that files location in the <code>url</code> parameter by intercepting the request in burp and forwarded it. The file i received as pdf had the flag.
     </li>
 </ol>
