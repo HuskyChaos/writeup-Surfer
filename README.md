@@ -26,7 +26,7 @@
         <h3>Index Page:</h3>
         <img src="./img/export.png" alt="export" width="500"><br>
         I was going through the page and found this option. If there was anything on this page <br>
-        that could help me, was this option. So, i search <code>Export pdf vulnerability</code> and <br>
+        that could help me, was this option. So, i searched <code>Export pdf vulnerability</code> and <br>
         found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>. This is a medium post by <strong>Inon Shkedy</strong> where he explains <code>Export Injection</code>.
         <br>The first step was to capture and monitor the http request.
     </li><br>
