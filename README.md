@@ -1,14 +1,14 @@
 <h1>TryHackMe - Surfer</h1>
 <img src="./img/logo.png" alt="logo" width="400">
 <p>
-    There were a few things that i tried but were not helpful. Including them was only a waste <br>
-    of time. So, i will only include the steps that showed me any helpful result.
+    There were a few things that i tried but were they not helpful. Including them <br>
+    was only a waste of time. So, i will only include the steps that showed me any helpful result.
 </p>
 <ol>
     <li>
         <h3>Port-Scanning:</h3>
         <img src="./img/rustscan.png" alt="rustscan" width="500"><br>
-        Starting with <code>rustscan</code>, we can see that only two ports are open.<br>
+        Starting with <code>rustscan</code>. We can see that only two ports are open.<br>
         Trying to brute force SSH mostly fails. So, let's checkout the webpage first.
     </li><br>
     <li>
