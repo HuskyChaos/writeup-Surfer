@@ -15,15 +15,23 @@
         Were land on this login.php page. Let's try some default credentials before using sqlmap or hydra.<br>
     </li><br>
     <li>
-        Index Page:<br>
-        <img src="./img/index-page.png" alt="index-page" width="500"><br>
+        LogIn Page:<br>
+        <img src="./img/index-page.png" alt="login-page" width="500"><br>
         One of those default credentials worked and now we are logged in.
     </li><br>
     <li>
-        Locating a vulnerability:<br>
+        Index Page:<br>
         <img src="./img/export.png" alt="export" width="500"><br>
-        I was going through the page and found this. if there was anything on this page that could halp me was this.<br>
+        I was going through the page and found this. if there was anything on this page that could halp me was this option.<br>
         So i search "Export pdf vulnerability" and found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>.<br>
         The first step was to capture and monitor the http request.
+    </li><br>
+    <li>
+        HTTP request:<br>
+        <img src="./img/req-1.png" alt="req-1"><img src="./img/req-1param.png" alt="req-1param"><br>
+        So, we can see that it has Internal Network Exposure(SSRF) vulnerability.<br>
+        I thought of internal port scanning like the post from Inon suggested but i don't know how to do it so i had another idea.<br>
+        I wanted to bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on that internal network.<br>
+        I tried some basic ones but it didn't help so lets use ffuf and see what we get.
     </li>
 </ol>
