@@ -23,7 +23,10 @@
     <li>
         <h3>Index Page:</h3>
         <img src="./img/export.png" alt="export" width="500"><br>
-        I was going through the page and found this. if there was anything on this page <br>that could help me, was this option. So, i search <code>Export pdf vulnerability</code> and found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>.<br>The first step was to capture and monitor the http request.
+        I was going through the page and found this. if there was anything on this page <br>
+        that could help me, was this option. So, i search <code>Export pdf vulnerability</code> and found 
+        <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>.
+        <br>The first step was to capture and monitor the http request.
     </li><br>
     <li>
         <h3>HTTP request:</h3>
