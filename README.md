@@ -41,14 +41,20 @@
     <li>
         <h3>FFUF:</h3>
         <img src="./img/ffuf.png" alt="ffuf" width="600"><br>
-        I grabbed all the important stuff from the burp request and used them in ffuf command and <br>
-        i found these files and folders. This machine has <code>port 22</code> and since it is a CTF, my next move <br>
-        is to find any file which might contain the login credentials for SSH.<br>
+        I grabbed the header for <code>Content-Type</code> and <code>Cookie</code> from the burpsuite request <br>
+        we intercepted and used them in ffuf command which you can see in the image. You might have noticed that <br>
+        my machine ip has changed and that's because my 1 hour was over and i forgot to extend it.<br>
+        So, i found these files and folders. This machine has <code>port 22</code> open and since it is <br>
+        a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
         I will ffuf all the folders for intresting files.
     </li><br>
     <li>
         <h3>Flag:</h3>
         <img src="./img/flag.png" alt="flag" width="500"><br>
-        Instead of finding the login credentials for SSH, i found the flag. I can't include the files <br>location because i want this writeup to be accepted so all i can say is that i found an <br>intresting file inside a folder. i then used that files location in the <code>url</code> parameter by <br>intercepting the request in burp and forwarded it. The file i received as pdf had the flag.
+        Instead of finding the login credentials for SSH, i found the flag. I can't include the files <br>
+        location because i want this writeup to be accepted. All i can say is that i found an <br>
+        intresting file inside a folder. i then used that files location in the <code>url</code> parameter <br>
+        by intercepting the request in burp and forwarded it. The file i received back as pdf had the flag.
     </li>
 </ol>
+<h1>Done!</h1>
