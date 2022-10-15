@@ -43,7 +43,7 @@
     <li>
         <h3>FFUF:</h3>
         <img src="./img/ffuf.png" alt="ffuf" width="600"><br>
-        I grabbed the header for <code>Content-Type</code> and <code>Cookie</code> from the burpsuite request <br>
+        I grabbed <code>Content-Type</code> and <code>Cookie</code> from the burpsuite request header <br>
         we intercepted and used them in ffuf command which you can see in the image. You might have noticed that <br>
         my machine ip has changed and that's because my 1 hour was over and i forgot to extend it.<br>
         So, i found these files and folders. This machine has <code>port 22</code> open and since it is <br>
