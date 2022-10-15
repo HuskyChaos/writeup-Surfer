@@ -18,5 +18,12 @@
         Index Page:<br>
         <img src="./img/index-page.png" alt="index-page" width="500"><br>
         One of those default credentials worked and now we are logged in.
+    </li><br>
+    <li>
+        Locating a vulnerability:<br>
+        <img src="./img/export.png" alt="export" width="500"><br>
+        I was going through the page and found this. if there was anything on this page that could halp me was this.<br>
+        So i search "Export pdf vulnerability" and found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>.<br>
+        The first step was to capture and monitor the http request.
     </li>
 </ol>
