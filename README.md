@@ -35,7 +35,7 @@
         can see that it has <code>Internal Network Exposure(SSRF)</code> vulnerability. I thought of internal port scanning <br>
         like the post from <strong>Inon</strong> suggested but i don't know how to do it so i had another idea. I wanted to <br>
         bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on <br>
-        that internal network. I tried some basic ones but they werent helpful so let's use ffuf and try to find anything intresting.
+        that internal network. I tried some basic ones but they werent helpful so let's use ffuf <br>and try to find anything intresting.
     </li><br>
     <li>
         <h3>FFUF:</h3>
