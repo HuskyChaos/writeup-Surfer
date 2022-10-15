@@ -1,6 +1,6 @@
 <h1>TryHackMe - Surfer</h1>
 <img src="./img/logo.png" alt="logo" width="400">
-<p>There were a lot of things that i tried but were not helpful and including them was only a waste <br>of time, so i will only include the steps that showed me any result</p>
+<p>There were a lot of things that i tried but were not helpful and including them was only a waste <br>of time. So, i will only include the steps that showed me any result</p>
 
 <ol>
     <li>
