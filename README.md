@@ -40,7 +40,7 @@
         I will ffuf all the folders for intresting files.
     </li><br>
     <li>
-        Flag:<br>
+        <h3>Flag:</h3>
         <img src="./img/flag.png" alt="flag" width="500"><br>
         Instead of finding the login credentials for SSH, i found the flag. I can't include the files <br>location because i want this writeup to be accepted so all i can say is that i found an <br>intresting file inside a folder. i then used that files location in the <code>url</code> parameter by <br>intercepting the request in burp and forwarded it. The file i received as pdf had the flag.
     </li>
