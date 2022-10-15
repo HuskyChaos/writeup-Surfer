@@ -59,3 +59,4 @@
         by intercepting the request in burp and forwarded it. The file i received back as pdf had the flag.
     </li>
 </ol>
+<p>Machine Solved 😁</p>
