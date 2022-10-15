@@ -36,7 +36,7 @@
     <li>
         <h3>FFUF:</h3>
         <img src="./img/ffuf-1.png" alt="ffuf-1" width="600"><br>
-        I grabbed all the important stuff from the burp request and used them in ffuf command and <br>i found these files and folders. This machine has <code>port 22</code> and since it is a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
+        I grabbed all the important stuff from the burp request and used them in ffuf command and <br>i found these files and folders. This machine has <code>port 22</code> and since it is a CTF, my next move <br>is to find any file which might contain the login credentials for SSH.<br>
         I will ffuf all the folders for intresting files.
     </li><br>
     <li>
