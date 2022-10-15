@@ -6,7 +6,7 @@
     <li>
         <h3>Port-Scanning:</h3>
         <img src="./img/rustscan.png" alt="rustscan" width="500"><br>
-        Starting with <code>rustscan</code> we can see that only two ports are open.<br>
+        Starting with <code>rustscan</code>, we can see that only two ports are open.<br>
         Trying to brute force SSH mostly fails. So, let's checkout the webpage first.
     </li><br>
     <li>
@@ -23,7 +23,7 @@
     <li>
         <h3>Index Page:</h3>
         <img src="./img/export.png" alt="export" width="500"><br>
-        I was going through the page and found this. if there was anything on this page <br>
+        I was going through the page and found this. If there was anything on this page <br>
         that could help me, was this option. So, i search <code>Export pdf vulnerability</code> and <br>
         found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>. This is a medium post by <strong>Inon Shkedy</strong> where he explains <code>Export Injection</code>.
         <br>The first step was to capture and monitor the http request.
@@ -36,7 +36,7 @@
         internal port scanning like the post from <strong>Inon</strong> suggested but i don't know how to do <br>
         it so i had another idea. I wanted to bruteforce and see if there are any other pages like <br>
         <code>server-info.php</code> that we could access on that internal network. I tried some basic ones <br>
-        but they werent helpful so, let's use ffuf and try to find anything intresting.
+        but they weren't helpful so, let's use ffuf and try to find other files.
     </li><br>
     <li>
         <h3>FFUF:</h3>
