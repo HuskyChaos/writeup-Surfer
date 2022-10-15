@@ -28,7 +28,7 @@
     </li><br>
     <li>
         HTTP request:<br>
-        <img src="./img/req-1.png" alt="req-1" width="350"><img src="./img/req-1param.png" alt="req-1param" width="350"><br>
+        <img src="./img/req-1.png" alt="req-1" width="400"><img src="./img/req-1param.png" alt="req-1param" width="300"><br>
         So, we can see that it has Internal Network Exposure(SSRF) vulnerability.<br>
         I thought of internal port scanning like the post from Inon suggested but i don't know how to do it so i had another idea.<br>
         I wanted to bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on that internal network.<br>
