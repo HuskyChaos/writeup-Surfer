@@ -38,7 +38,7 @@
         internal port scanning like the post from <strong>Inon</strong> suggested but i don't know how to do <br>
         it so i had another idea. I wanted to bruteforce and see if there are any other pages like <br>
         <code>server-info.php</code> that we could access on that internal network. I tried some basic ones <br>
-        but they weren't helpful so, let's use ffuf and try to find other files.
+        but they weren't helpful. So, let's use ffuf and try to find other files.
     </li><br>
     <li>
         <h3>FFUF:</h3>
