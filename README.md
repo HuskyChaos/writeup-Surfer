@@ -6,14 +6,14 @@
     <li>
         <h3>Port-Scanning:</h3>
         <img src="./img/rustscan.png" alt="rustscan" width="500"><br>
-        Starting with rust scan we can see that only two ports are open.<br>
+        Starting with <code>rustscan</code> we can see that only two ports are open.<br>
         Trying to brute force SSH mostly fails. So, let's checkout the webpage first.
     </li><br>
     <li>
         <h3>WebPage:</h3>
         <img src="./img/web-page.png" alt="web-page" width="500"><br>
-        Were land on this login.php page.<br>
-        Let's try some default credentials before using sqlmap or hydra.<br>
+        We land on this <code>login.php</code> page.<br>
+        Let's try some default credentials before using <code>sqlmap</code> or <code>hydra</code>.<br>
     </li><br>
     <li>
         <h3>LogIn Page:</h3>
