@@ -31,7 +31,7 @@
     <li>
         <h3>HTTP request:</h3>
         <img src="./img/req.png" alt="req-1" width="450"> <img src="./img/reqParam.png" alt="reqParam" width="250"><br>
-        I intercepted the request using <code>burpsuite</code> and url-decoded the <code>url</code> parameter. So, we <br>
+        I intercepted the request using <code>burpsuite</code> and url-decoded the <code>url</code> parameter. We <br>
         can see that it has <code>Internal Network Exposure(SSRF)</code> vulnerability. I thought of <br>
         internal port scanning like the post from <strong>Inon</strong> suggested but i don't know how to do <br>
         it so i had another idea. I wanted to bruteforce and see if there are any other pages like <br>
