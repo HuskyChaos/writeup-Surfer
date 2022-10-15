@@ -46,7 +46,7 @@
         I grabbed <code>Content-Type</code> and <code>Cookie</code> from the burpsuite request header we intercepted <br>
         and used them in ffuf command which you can see in the image. You might have noticed that <br>
         my machine ip has changed and that's because my 1 hour was over and i forgot to extend it.<br>
-        So, i found these files and folders. This machine has <code>port 22</code> open and since it is <br>
+        So, i found some files and folders. This machine has <code>port 22</code> open and since it is <br>
         a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
         I will ffuf all the folders for intresting files.
     </li><br>
