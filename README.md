@@ -48,7 +48,7 @@
         my machine ip has changed and that's because my 1 hour was over and i forgot to extend it.<br>
         So, i found some files and folders. This machine has <code>port 22</code> open and since it is <br>
         a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
-        I will ffuf all the folders for intresting files.
+        I will check out all the files and use ffuf on the folders again.
     </li><br>
     <li>
         <h3>Flag:</h3>
