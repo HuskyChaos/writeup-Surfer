@@ -4,8 +4,9 @@
 <br>
 <ol>
     <li>
-        Reconnaissance:<br>
+        Port-Scanning:<br>
         <img src="./img/rustscan.png" alt="rustscan" width="500"><br>
-        Starting with rust scan we can see that only two ports are open.
+        Starting with rust scan we can see that only two ports are open.<br>
+        Trying to brute force SSH is useless so lets checkout the webpage.
     </li>
 </ol>
