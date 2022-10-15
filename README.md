@@ -4,7 +4,7 @@
 <br>
 <ol>
     <li>
-        <h4>Port-Scanning:</h4>
+        <h3>Port-Scanning:</h3>
         <img src="./img/rustscan.png" alt="rustscan" width="500"><br>
         Starting with rust scan we can see that only two ports are open.<br>
         Trying to brute force SSH is useless so lets checkout the webpage.
