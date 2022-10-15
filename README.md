@@ -28,9 +28,9 @@
     <li>
         <h3>HTTP request:</h3>
         <img src="./img/req-1.png" alt="req-1" width="450"> <img src="./img/req-1param.png" alt="req-1param" width="240"><br>
-        I intercepted the request using burp and url-decoded the <code>url</code> parameter. So, we can see that it has <br>Internal Network Exposure(SSRF) vulnerability.<br>
-        I thought of internal port scanning like the post from Inon suggested but i don't know how to do it so i had another idea.<br>
-        I wanted to bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on that internal network.<br>
+        I intercepted the request using burp and url-decoded the <code>url</code> parameter. So, we can see that <br>it has Internal Network Exposure(SSRF) vulnerability.
+        I thought of internal port scanning like the post from Inon suggested but i don't know how to do it so i had another idea.
+        I wanted to bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on that internal network.
         I tried some basic ones but it didn't help so lets use ffuf and see what we get.
     </li><br>
     <li>
