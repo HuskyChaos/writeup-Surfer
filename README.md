@@ -35,12 +35,14 @@
         it has <code>Internal Network Exposure(SSRF)</code> vulnerability. I thought of internal port scanning like the <br>
         post from <strong>Inon</strong> suggested but i don't know how to do it so i had another idea. I wanted to <br>
         bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on <br>
-        that internal network. I tried some basic ones but it didn't help so lets use ffuf and see what we get.
+        that internal network. I tried some basic ones but they werent helpful so let's use ffuf and try to find anything intresting.
     </li><br>
     <li>
         <h3>FFUF:</h3>
         <img src="./img/ffuf.png" alt="ffuf" width="600"><br>
-        I grabbed all the important stuff from the burp request and used them in ffuf command and <br>i found these files and folders. This machine has <code>port 22</code> and since it is a CTF, my next move <br>is to find any file which might contain the login credentials for SSH.<br>
+        I grabbed all the important stuff from the burp request and used them in ffuf command and <br>
+        i found these files and folders. This machine has <code>port 22</code> and since it is a CTF, my next move <br>
+        is to find any file which might contain the login credentials for SSH.<br>
         I will ffuf all the folders for intresting files.
     </li><br>
     <li>
