@@ -29,9 +29,24 @@
     <li>
         HTTP request:<br>
         <img src="./img/req-1.png" alt="req-1" width="450"> <img src="./img/req-1param.png" alt="req-1param" width="280"><br>
+        I intercepted the request using burp and url-decoded the <code>url</code> parameter.<br>
         So, we can see that it has Internal Network Exposure(SSRF) vulnerability.<br>
         I thought of internal port scanning like the post from Inon suggested but i don't know how to do it so i had another idea.<br>
         I wanted to bruteforce and see if there are any other pages like <code>server-info.php</code> that we could access on that internal network.<br>
         I tried some basic ones but it didn't help so lets use ffuf and see what we get.
+    </li><br>
+    <li>
+        FFUF:<br>
+        <img src="./img/ffuf-1.png" alt="ffuf-1" width="600"><br>
+        I grabbed all the important stuff from the burp request and used them in ffuf command and i found these files and folders.<br>
+        This machine has <code>port 22</code> and since it is a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
+        I will ffuf all the folders for intresting files.
+    </li><br>
+    <li>
+        Flag:<br>
+        <img src="./img/flag.png" alt="flag" width="500"><br>
+        Instead of finding the login credentials for SSH, i found the flag.<br>
+        I can't include the files location because i want this writeup to be accepted so all i can say is that i found an intresting file inside a folder.<br>
+        i then used that files location in the <code>url</code> parameter by intercepting the request in burp and forwarded it. The file i received as pdf had the flag.
     </li>
 </ol>
