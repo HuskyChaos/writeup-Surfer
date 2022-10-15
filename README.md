@@ -10,24 +10,24 @@
         Trying to brute force SSH is useless so lets checkout the webpage.
     </li><br>
     <li>
-        WebPage:<br>
+        <h3>WebPage:</h3>
         <img src="./img/web-page.png" alt="web-page" width="500"><br>
         Were land on this login.php page. Let's try some default credentials before using sqlmap or hydra.<br>
     </li><br>
     <li>
-        LogIn Page:<br>
+        <h3>LogIn Page:</h3>
         <img src="./img/index-page.png" alt="login-page" width="500"><br>
         One of those default credentials worked and now we are logged in.
     </li><br>
     <li>
-        Index Page:<br>
+        <h3>Index Page:</h3>
         <img src="./img/export.png" alt="export" width="500"><br>
         I was going through the page and found this. if there was anything on this page that could halp me was this option.<br>
         So i search "Export pdf vulnerability" and found <a href="https://inonst.medium.com/export-injection-2eebc4f17117">this</a>.<br>
         The first step was to capture and monitor the http request.
     </li><br>
     <li>
-        HTTP request:<br>
+        <h3>HTTP request:</h3>
         <img src="./img/req-1.png" alt="req-1" width="450"> <img src="./img/req-1param.png" alt="req-1param" width="280"><br>
         I intercepted the request using burp and url-decoded the <code>url</code> parameter.<br>
         So, we can see that it has Internal Network Exposure(SSRF) vulnerability.<br>
@@ -36,7 +36,7 @@
         I tried some basic ones but it didn't help so lets use ffuf and see what we get.
     </li><br>
     <li>
-        FFUF:<br>
+        <h3>FFUF:</h3>
         <img src="./img/ffuf-1.png" alt="ffuf-1" width="600"><br>
         I grabbed all the important stuff from the burp request and used them in ffuf command and i found these files and folders.<br>
         This machine has <code>port 22</code> and since it is a CTF, my next move is to find any file which might contain the login credentials for SSH.<br>
