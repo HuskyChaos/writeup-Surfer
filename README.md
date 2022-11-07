@@ -51,5 +51,9 @@
         <ul>
             <img src="./img/flag.png" alt="flag" width="500">
         </ul>
-    </li>
+    </li><br>
+    <h2>
+        Tried to get a foothold for a long time so i am leaving this here. <br>
+        Solved 😂
+    </h2>
 </ul>
