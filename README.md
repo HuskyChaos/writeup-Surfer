@@ -35,7 +35,9 @@
         <strong>Step 5 :</strong> Monitoring the request.
         <ul>
             <img src="./img/request.png" alt="request"><br>
-            Looking at the <code>url</code> parameter we can say that <code>Internal Network Exposure(SSRF)</code> vulnerability. It also made me think i can read other files on that localhost. Maybe one of them containing credential for ssh, ssh private key or anything that can help me get a foothold.
+            Looking at the <code>url</code> parameter after decoding it, we can say that <code>Internal Network Exposure(SSRF)</code> vulnerability exists on this server.
+            It also made me think if i can read other files on that localhost or not.
+            Maybe one of them containing credential for ssh, ssh private key or anything that can help me get a foothold.
         </ul>
     </li>
 </ul>
