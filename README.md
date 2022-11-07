@@ -43,13 +43,13 @@
     <li>
         <strong>Step 6 :</strong> Fuzzing for other files.
         <ul>
-            <img src="./img/ffuf.png" alt="ffuf">
+            <img src="./img/ffuf.png" alt="ffuf" width="500">
         </ul>
     </li><br>
     <li>
         <strong>Step 7 :</strong> Found the flag.
         <ul>
-            <img src="./img/flag.png" alt="flag">
+            <img src="./img/flag.png" alt="flag" width="500">
         </ul>
     </li>
 </ul>
