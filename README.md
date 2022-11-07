@@ -49,7 +49,7 @@
     <li>
         <strong>Step 7 :</strong> Found the flag.<br>
         <ul>
-            <img src="./img/flag.png" alt="flag" width="500">
+            <img src="./img/flag.png" alt="flag" width="500"><br>
             There was an easier way but i fuzzed my way to the file containing the flag.<br>
             It was tedious, but i got it.
         </ul>
