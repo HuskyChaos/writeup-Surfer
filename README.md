@@ -15,7 +15,7 @@
         </ul>
     </li><br>
     <li>
-        <strong>Step 4 :</strong> Brute forcing login page.<br>
+        <strong>Step 3 :</strong> Brute forcing login page.<br>
         <ul>
             Trying out some default credentials.<br>
             <img src="./img/loggedIn.png" alt="loggedIn" height="300"><br>
@@ -23,7 +23,7 @@
         </ul>
     </li><br>
     <li>
-        <strong>Step 5 :</strong> Back to reconnaissance.<br>
+        <strong>Step 4 :</strong> Back to reconnaissance.<br>
         <ul>
             <li>Export to pdf looks intresting.</li>
             <li>Searching google for <strong>export to pdf</strong> vulnerability.</li>
@@ -32,9 +32,9 @@
     </li><br>
     <h2>Following his lead.</h2>
     <li>
-        <strong>Step 6 :</strong> Monitoring the request.
+        <strong>Step 5 :</strong> Monitoring the request.
         <ul>
-            <img src="./img/req.png" alt="request"><br>
+            <img src="./img/request.png" alt="request"><br>
             Looking at the <code>url</code> parameter we can say that <code>Internal Network Exposure(SSRF)</code> vulnerability. It also made me think i can read other files on that localhost. Maybe one of them containing credential for ssh, ssh private key or anything that can help me get a foothold.
         </ul>
     </li>
