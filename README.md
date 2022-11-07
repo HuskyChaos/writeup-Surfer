@@ -47,13 +47,15 @@
         </ul>
     </li><br>
     <li>
-        <strong>Step 7 :</strong> Found the flag.
+        <strong>Step 7 :</strong> Found the flag.<br>
         <ul>
             <img src="./img/flag.png" alt="flag" width="500">
+            There was an easier way but i fuzzed my way to the file containing the flag.<br>
+            It was tedious, but i got it.
         </ul>
     </li><br>
     <h2>
         Tried to get a foothold for a long time so i am leaving this here. <br>
-        Solved 😂
+        Solved 😁
     </h2>
 </ul>
